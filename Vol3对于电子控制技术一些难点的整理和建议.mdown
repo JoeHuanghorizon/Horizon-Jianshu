@@ -1,0 +1,35 @@
+>#### 三极管：
+
+  *这是几个大学的视频，里面夹杂这点大学的知识，这些地方听不懂也没关系，然后因为是台湾的，所以有些叫法也不一样，但他讲得很细，讲到了原理，虽然刚开始看可能有点困难，但多看几遍，理解了之后肯定会有所收获*
+
+----------
+
+1. [三极管介绍](http://www.bilibili.com/video/av6701504/index_1.html)（比较基础，如果已经大概了解了三极管那就不用看了）
+2. [三极管原理](http://www.bilibili.com/video/av6701504/index_2.html)（很重要，建议看）
+3. [三极管构建开关或逻辑门](http://www.bilibili.com/video/av6701504/index_6.html)（和后面的电子控制系统联系起来，对后面这块解题是有帮助的）
+4. [三极管的三种接法](http://www.bilibili.com/video/av6701504/index_11.html)（主要是一个概念，可能有些题目会提到这里面的名词，需要了解）
+
+>#### 集成电路：
+
+- **JN6201：**
+
+![](http://upload-images.jianshu.io/upload_images/5847257-e77d7cd98d566988.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![JN6201引脚功能对应图](http://upload-images.jianshu.io/upload_images/5847257-a90c9731f2986730.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+   *注意：JN6201  6脚接地，7脚接Vcc（3~5V）*
+
+- **555电路：**
+
+![555电路引脚图](http://upload-images.jianshu.io/upload_images/5847257-4409d0cb3bb23899.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ - - 引脚功能：
+        - 1脚接地
+        - 2脚触发：当此引脚电压降至1/3 VCC（或由控制端决定的阈值电压）3脚输出高电平。
+        - 3脚输出
+        - 6脚阈值：当此引脚电压升至2/3 VCC（或由控制端决定的阈值电压）3脚输出低电平。
+        - 7脚用于给电容放电
+        - 8脚接Vcc（供电）
+
+>#### 其他：
+
+- 继电器要注意要反接二极管保护三极管
+- 逻辑门要熟练
+- 触发器要注意主要有或非门和与非门两种，尽量记一下这两种的真值表，这样看到常规的触发器可以快一点，但也要小心非常规的触发器，所以要具体问题具体分析

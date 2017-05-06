@@ -1,0 +1,61 @@
+>#### 基础：
+
+- “a”的十六进制ASCII值是“61”，十进制是“97”
+- 纯白色用十六进制表示是#FFFFFF
+- “A”的十六进制ASCII值是“41”，十进制是“65”
+- 字母的ASCII值不会超过7F(16)，汉字的内码值一定大于7F(16)
+- 电子邮件发件：SMTP（simple mail transfer protocol 简单邮件传输协议）协议
+收件：POP3（Post Office Protocol - Version 3） 协议
+- PAL每秒显示25帧，NTSC每秒显示30帧
+
+>#### Photoshop：
+
+*（如有版本差异，个人使用 CC 2017 版本的Photoshop）*
+
+-  ps中不能为图层组统一添加的滤镜，能为图层组统一添加图层样式，能为图层组统一添加透明度
+- 背景锁：不能更改背景图层的堆栈顺序、画布位置（图层面板和画布上的位置都不能改）、混合模式、不透明度，可以删除、解锁。
+</br>
+![](http://upload-images.jianshu.io/upload_images/5847257-38855b8f96d50034.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+* *如图,自左到右分别为：*
+   - **透明像素锁定**：不能更改透明区域
+   - **图像像素锁定**：不能更改图像的像素信息，不能加滤镜，只能加混合选项
+
+ - **位置锁定**：不能移动图层在画布上的位置
+ - **阻止在画板内外自动嵌套** : **不作要求**，PS CC 2015新功能，阻止图层与画板间自动嵌套，不详讲）
+ - **全部锁定**
+
+>#### Flash：
+
+- 在flash中，默认情况下，动画都会按照场景的先后顺序播放
+- flash中play();命令没有参数，作用是在当前位置开始播放
+- **补间动画**
+ - **动画补间**：移动位置，改变alpha值，改变角度等。是淡紫色底加一个黑色箭头组成的。
+ - **形状补间**：改变形状（*要分离*）。是淡绿色底加一个黑色箭头组成的。
+
+- 帧操作：
+ - 清除关键帧：把选中的关键帧变为帧
+ - 删除帧：所选的帧被删除，后边的帧会前移
+ - 清除帧：选中部分第一帧变为空白关键帧，延续至选中的最后一帧
+
+- flash元件（3种）：
+![图形元件](http://upload-images.jianshu.io/upload_images/5847257-73412f01a9f40e14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![按钮](http://upload-images.jianshu.io/upload_images/5847257-2e855425b1d7eaa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![影片剪辑](http://upload-images.jianshu.io/upload_images/5847257-8fc422abfc70a7e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+>#### Word：
+
+- 拼写与语法检查中**红色波浪线**为**拼写错误**，**绿色波浪线**为**语法错误**
+
+>#### VB:
+
+- Rnd()的范围：[0,1)
+- AddItem 的用法:Obj.AddItem Value
+
+>#### GoldWave:
+
+- GoldWave界面中上波形为左声道，下波形为右声道
+- 在一个声道上修改（如删除等）不会影响wav文件大小
+
+>#### 多媒体作品设计：
+
+![](http://upload-images.jianshu.io/upload_images/5847257-c8b44772de65fa25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
