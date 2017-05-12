@@ -42,6 +42,11 @@
 ![按钮](http://upload-images.jianshu.io/upload_images/5847257-2e855425b1d7eaa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ![影片剪辑](http://upload-images.jianshu.io/upload_images/5847257-8fc422abfc70a7e2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+- 关于Flash中的按钮元件响应问题
+   - **能否响应主要由点击帧控制**
+   - **无论是在哪个图层 若某个点击帧上有空白关键帧 按键无法响应**
+   - **如果点击帧未被定义 延续前一帧状态**
+
 >#### Word：
 
 - 拼写与语法检查中**红色波浪线**为**拼写错误**，**绿色波浪线**为**语法错误**
@@ -50,11 +55,13 @@
 
 - Rnd()的范围：[0,1)
 - AddItem 的用法:Obj.AddItem Value
+- 计时器Timer Interval属性表示间隔x毫秒运行一次Timer代码块中代码
 
 >#### GoldWave:
 
 - GoldWave界面中上波形为左声道，下波形为右声道
 - 在一个声道上修改（如删除等）不会影响wav文件大小
+- 静音操作不改变wav文件大小
 
 >#### 多媒体作品设计：
 
